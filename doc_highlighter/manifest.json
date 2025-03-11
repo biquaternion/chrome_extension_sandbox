@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Read Docs 4 You",
+  "version": "1.0",
+  "description": "Читает документы, сайты, договоры и делает краткий пересказ",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
